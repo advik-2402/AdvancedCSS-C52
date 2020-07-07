@@ -1,0 +1,39 @@
+h1 {
+    color: brown;
+}
+
+.header{
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.games{
+    position: relative;
+    border: solid;
+}
+
+.games2{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2,p{
+    color: blue;
+}
+
+.games p{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.games:hover p{
+    opacity: 1;
+}
+
+.games:hover img{
+    opacity: 0.3;
+}
